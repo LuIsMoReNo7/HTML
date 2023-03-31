@@ -1,13 +1,13 @@
 body{
-    bac
+	background-color: rgb(46, 211, 240);
 }
 
 
 footer {
 	width: 100%;
 	height: 100px;
-	background: #fcf4f4;
-	border-top: 2px solid #f1f1f1;
+	background: #f7bebe;
+	border-top: 3px solid #fdfdfd;
 	position: absolute;
-	bottom: 0;
+	bottom: 1;
 }
