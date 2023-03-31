@@ -1,0 +1,8 @@
+h1{
+    align-items: center;
+    background: hwb(241 11% 17%);
+    display: flex;
+}
+body{
+    background: linear-gradient(320deg, #c91d1d, #7d2bca, #1cd362, #ecde11);
+}
