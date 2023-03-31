@@ -51,7 +51,7 @@ body{
     width: 326px; /*establece el ancho de un elemento*/
 }
 
-.calc-button-row{
+.calc-button-row{ /*row: es el espacio entre dos líneas de cuadrícula horizontale*/
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
@@ -97,7 +97,7 @@ body{
     background-color: #6f766d;
 }
 
-.double{
+.double{  /*Cuando usamos la palabra clave doble, se crea un relleno automático entre los dos bordes.*/
     flex-basis: 47%; /*especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible.*/
 }
 
