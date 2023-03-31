@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box; /*establece como se calcula el ancho y alto total de un elemento*/
+    height: 100%; /*especifica la altura de un elemento*/
+}
+
+*,
+*::before /*Es usado normalmente para añadir contenido estético a un elemento*/
+*::after{ /*crea un pseudo-elemento que es el último hijo del elemento seleccionado.*/
+    box-sizing: inherit;
+    margin: 0; /*establece el margen para los cuatro lados.*/
+    padding: 0; /*sirve para dar formato y diseño a una página web.*/
+}
+
+body{
+    align-items: center; /*establece el valor align-self sobre todos los descendientes directos de un grupo, align self: indica la alineación de un elemento dentro del bloque que lo contiene.*/
+    background: linear-gradient(320deg, #e014e0, #395aab, #00f8c6, #edede9); /*permite crear fondos degradados que van en una dirección y cambian de un color a otro, dependiendo de la lista de colores indicada por parámetro.*/
+    display: flex; /* nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página web.*/
+    font-family: 'dosis', sans-serif; /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+    font-display: swap; /*determina cómo se muestra una fuente basándose en cuándo está descargada y lista para usarse.*/
+    height: inherit; /*Permite seleccionar un valor medio dentro de un rango de valores entre un mínimo y un máximo definidos.*/
+    justify-content: center; /*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px); /*le permite aplicar efectos gráficos como desenfoque o cambio de color al área detrás de un elemento. */
+    -webkit-backdrop-filter: blur(5.5px); /*blur: aplica un desenfoque Gaussiano a la imagen de entrada.*/ /*El desenfoque gaussiano es un efecto de suavizado para mapas de bits generado por software de edición gráfica.*/
+    border-radius: 16px; /*establecer un redondeo*/
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1); /*permite aplicar una sombra a un elemento, a una caja <div>.*/
+    color: #232323; /*selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto*/
+    backdrop-filter: blur(4px); 
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30); /*es un atajo para definir los valores individuales del fondo en una única regla CSS*/
+    border: 1px solid rgba(255, 255, 255, 0.34); /*permite definir en una única regla todos los bordes de los elementos seleccionados. */
+    flex-basis: 400px; /*especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible.*/
+    height: 540px;
+    padding: 20px 35px; /*establece el área de relleno en los cuatro lados de un elemento a la vez.*/
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px; /*especifica la dimensión de la letra.*/
+    overflow: 20px; /*nos permite determinar lo que sucede con un elemento cuando su contenido sobrepasa los límites de su contenedor.*/
+    padding: 20px; 
+    text-align: right; /*permite establecer la alineación horizontal de un bloque de texto. */
+    width: 326px; /*establece el ancho de un elemento*/
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 15px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    background: #f80a81;
+}
+
+.calc-button:last-child:hover{
+    background-color: inherit; /*define el color de fondo de un element*/
+    color: inherit;
+}
+
+.calc-button:hover{
+    background-color: inherit;   
+}
+
+.calc-button:active{
+    background-color: #6f766d;
+}
+
+.double{
+    flex-basis: 47%; /*especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible.*/
+}
+
+.triple{
+    flex-basis: 73%;
+}
