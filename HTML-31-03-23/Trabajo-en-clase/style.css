@@ -1,6 +1,9 @@
+p{
+    background-color: #7d2bca;
+}
 h1{
     align-items: center;
-    background: hwb(241 11% 17%);
+    background: #0ab142;
     display: flex;
 }
 body{
