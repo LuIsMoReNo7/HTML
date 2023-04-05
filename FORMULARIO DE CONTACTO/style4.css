@@ -4,13 +4,13 @@
     box-sizing: border-box;
   }
   
-  body {
-    background: url("12222.jpg")no-repeat;
+  body{
+    background: url("11111.jpg")no-repeat;
     background-size: cover;
     min-height: 100vh;
   }
-  
-  .form-register {
+
+  .form-recovery {
     width: 400px;
     background: #24303c;
     padding: 30px;
@@ -20,14 +20,14 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
+ }
+
+ .form-recovery h4 {
+    font-size: 20px;
     margin-bottom: 20px;
-  }
-  
-  .controls {
+ }   
+
+ .controls {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -38,25 +38,8 @@
     font-size: 18px;
     color: white;
   }
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
+
+  .form-recovery .botons {
     width: 100%;
     background: #1f53c5;
     border: none;
