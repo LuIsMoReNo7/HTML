@@ -1,0 +1,1 @@
+window.alert("Bienvenido a la asistencia de alumnos");
