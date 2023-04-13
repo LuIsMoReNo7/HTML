@@ -38,7 +38,7 @@ form label{
 form label .fa-solid{
     font-size: 20px;
     color: white;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 form label input{
@@ -52,11 +52,6 @@ form label input{
 
 form label input::placeholder{
     color: white;
-}
-
-form .link{
-    color: white;
-    margin-bottom: 15px;
 }
 
 form button{
